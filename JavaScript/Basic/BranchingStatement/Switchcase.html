@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/Javascript">
+      var n1 = parseInt(prompt("Enter First No"));
+      var n2 = parseInt(prompt("Enter Second No"));
+      var opr=prompt("Enter operator");
+      var ans=0;
+      switch (opr) {
+        case "+":
+            ans = n1 + n2;
+            break;
+
+        case "-":
+            ans=n1 - n2;
+            break;
+
+        case "/":
+        ans = n1 / n2;
+        break;
+
+        case "*":
+        ans = n1 * n2;
+        break;
+      
+        default:
+            alert("Wrong Operator");
+            break;
+      }
+      alert("Answer=" +ans);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

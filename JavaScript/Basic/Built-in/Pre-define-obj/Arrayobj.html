@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var a =["Ganesh","Shreyash"];
+        var b=["shweta","Amit","Shiv"];
+        var c = ["nikhil"];
+        var child = a.concat(b);
+        document.write(child);
+        
+        document.write("Index of Shiv = "+child.indexOf("Shiv")+"<br>");
+        document.write("Index of Shreyash ="+child.indexOf("Shreyash",3))
+        document.write("<br>Poped element="+child.pop()+"<br>");
+        child.push("ram");
+        document.write(child);
+        document.write("<br>"+child.reverse());
+        document.write("<br>"+child.join([1,2,3]));
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
