@@ -19,6 +19,16 @@ else{
     console.log("Access Denied");
 }
 
+
+let temp = 35;
+if(!(temp < 30)){
+    console.log("hot");
+}
+else{
+    console.log("pleasent")
+}
+
 o/p-->
 //A
 //Access Granted
+//hot
